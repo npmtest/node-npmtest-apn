@@ -1,7 +1,10 @@
-# test coverage for  [apn (v2.1.4)](https://github.com/node-apn/node-apn#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-apn.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-apn) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-apn.svg)](https://travis-ci.org/npmtest/node-npmtest-apn)
+# npmtest-apn
+
+#### basic test coverage for  [apn (v2.1.4)](https://github.com/node-apn/node-apn#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-apn.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-apn) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-apn.svg)](https://travis-ci.org/npmtest/node-npmtest-apn)
+
 #### An interface to the Apple Push Notification service for Node.js
 
-[![NPM](https://nodei.co/npm/apn.png?downloads=true)](https://www.npmjs.com/package/apn)
+[![NPM](https://nodei.co/npm/apn.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/apn)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-apn/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-apn/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-apn/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-apn/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-apn/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-apn/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-apn/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-apn/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-apn/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-apn/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-apn%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-apn/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-apn/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-apn/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-apn/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-apn%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-apn/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-apn/build/test-report.html](https://npmtest.github.io/node-npmtest-apn/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-apn/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-apn/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-apn/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-apn/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-apn/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-apn/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-apn/build/screenCapture.npmPackageListing.svg)
 
@@ -27,17 +36,14 @@
 
 {
     "author": {
-        "name": "Andrew Naylor",
-        "email": "argon@mkbot.net"
+        "name": "Andrew Naylor"
     },
     "bugs": {
-        "url": "https://github.com/node-apn/node-apn/issues",
-        "email": "florian.reinhart@gmail.com"
+        "url": "https://github.com/node-apn/node-apn/issues"
     },
     "contributors": [
         {
-            "name": "Florian Reinhart",
-            "email": "florian.reinhart@gmail.com"
+            "name": "Florian Reinhart"
         }
     ],
     "dependencies": {
@@ -87,17 +93,14 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "argon",
-            "email": "argon@mkbot.net"
+            "name": "argon"
         },
         {
-            "name": "florianreinhart",
-            "email": "florian.reinhart@gmail.com"
+            "name": "florianreinhart"
         }
     ],
     "name": "apn",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/node-apn/node-apn.git"
